@@ -1,1 +1,17 @@
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto 0px auto;
+    
+}
 
+.mainImage{
+    display: inline-block;
+    width:100%;
+}
+
+@media only screen and (min-width: 600px){
+    .container{
+        margin-top: 40px;
+    }
+}
