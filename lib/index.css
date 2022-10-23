@@ -3,7 +3,23 @@
     max-width: 900px;
     margin: 30px auto 0px auto;
 }
-
+.description{
+    margin-top: 10px;
+}
+.descriptionContainer{
+    margin-top: 20px;
+}
+.descriptionHeading{
+    /* Typography */
+    font-size: 40px;
+    font-family: Akshar, sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    font-style:normal;
+    font-weight: 400;
+    text-decoration: none;
+}
 .mainImage{
     display: inline-block;
     width:100%;
