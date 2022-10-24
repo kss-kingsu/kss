@@ -10,13 +10,27 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 30px;
 }
-
+.memberDescription{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
 .memberImage{
     display: block;
     width: 100%;
 }
-
+.memberName{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.memberTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;  
+}
 @media only screen and (min-width: 400px){
     .member{
         flex-direction: row;
