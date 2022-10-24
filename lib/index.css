@@ -1,8 +1,25 @@
+footer{
+    height: 30px;
+    /* centers the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #264c7e;
+    color: #ffffff;
+}
+footer a{
+    color: #ffffff;
+    font-style: italic;
+}
+footer a:hover{
+    color: #ffe600;
+}
 .container{
     width: 90%;
     max-width: 900px;
-    margin: 30px auto 0px auto;
+    margin: 30px auto 10px auto;
 }
+
 .description{
     margin-top: 10px;
 }
@@ -20,13 +37,26 @@
     font-weight: 400;
     text-decoration: none;
 }
-.mainImage{
-    display: inline-block;
-    width:100%;
-}
 
+.mainImage{
+    display: block;
+    width:100%;
+    max-height: 500px;
+    max-width: 300px;
+}
+.mainImageContainer{
+    background-image: url("../images/wallpaper.jpeg");
+    height: 70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 @media only screen and (min-width: 600px){
     .container{
-        margin-top: 40px;
+        margin-top: 20px;
+    }
+    .mainImageContainer{
+        /* height: 600px; */
     }
 }
