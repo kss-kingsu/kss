@@ -41,16 +41,15 @@ footer a:hover{
 .mainImage{
     display: block;
     width:100%;
-    max-height: 500px;
-    max-width: 300px;
+
 }
 .mainImageContainer{
-    background-image: url("../images/wallpaper.jpeg");
+    /* background-image: url("../images/tmp.png");
     height: 70%;
     background-position:center;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: cover; */
+    width: 100%;
 }
 @media only screen and (min-width: 600px){
     .container{
