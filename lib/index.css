@@ -1,5 +1,8 @@
 footer{
+    position: absolute;
+    width: 100%;
     height: 30px;
+    bottom: 0;
     /* centers the text */
     display: flex;
     align-items: center;
