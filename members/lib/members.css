@@ -48,6 +48,7 @@
         object-fit: contain;
     }
     .memberImageContainer{
-        max-width: 300px;
+        width: 300px;
+        min-width: 300px;
     }
 }
