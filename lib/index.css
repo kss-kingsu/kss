@@ -58,4 +58,8 @@ footer a:hover{
     .container{
         margin-top: 20px;
     }
+    .mainImageContainer{
+        max-width: 550px;
+        margin: 0 auto;
+    }
 }
