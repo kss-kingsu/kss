@@ -2,46 +2,23 @@
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 15px;
 }
-
-.member{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 30px;
-}
-.memberDescription{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-.memberImage{
+.eventImage{
     display: block;
-    width: 100%;
+    width:100%;
 }
-.memberName{
-    font-family: 'Source Sans Pro', sans-serif;
+.eventCollectionHeading{
+    font-family: 'Dancing Script', cursive;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 40px;
+    color: #3e6172
 }
-.memberTitle{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 20px;  
+.gridContainer{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
 }
 @media only screen and (min-width: 400px){
-    .member{
-        flex-direction: row;
-    }
-    
-    .memberDescriptionContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-    .memberImageContainer{
-        width: 200px;
-    }
+
 }
